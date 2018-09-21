@@ -1,7 +1,10 @@
 <style>
 body {
   margin-left: 25%;
-  position: relative;
+  position: absolute;
+}
+#main-doc {
+  margin-left: 20%;
 }
 #navbar {
  height: 100%;
@@ -62,6 +65,13 @@ body {
   position:relative;
  left:-50px;
   width:100%;
+}
+code {
+  display: block;
+  white-space: pre;
+  background-color:#f7f7f7;
+  padding: 10px; 5px;
+  
 }
 @media only screen and (max-width: 815px) {
     /* For mobile phones: */
