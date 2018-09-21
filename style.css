@@ -7,11 +7,15 @@ body {
   background-image: url("https://www.onallcylinders.com/wp-content/uploads/2018/07/12/Overlanding.jpg");
   background-size: 100% auto;
   background-attachment: fixed;
+  font-weight: bold;
 }
+  
 #title-heading {
   font-size: 75px;
   text-align: center;
   font-family: permanent marker;
+  text-decoration: none;
+  padding: 20vw;
 }
 #main-doc {
   margin-left: 20%;
@@ -40,6 +44,9 @@ header {
   margin: 0px;
   padding: 0px;
   background-color: #f1f1f1;
+}
+#navbar-header {
+  text-decoration: none;
 }
 
 #link1,#link2,#link3,#link4,#link5,#link6{
@@ -109,4 +116,3 @@ code {
       border-bottom: 1px bold; 
   }
 }
-
