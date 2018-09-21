@@ -3,8 +3,6 @@ body {
   margin-left: 25%;
   position: relative;
 }
-
-
 #navbar {
  height: 100%;
     width: 20%;
@@ -26,9 +24,8 @@ body {
 #link1,#link2,#link3,#link4,#link5,#link6{
   display: block;
   color: #000;
-  padding: 8px 16px;
+  padding: 1vw 2vw;
   text-decoration: none;
-  border: 1px solid #555;
   width: fill;
   height: 100%;
 }
@@ -56,4 +53,30 @@ body {
   background-color:#555;
     color: white;
 }
-</style>
+#navbar li {
+  border:1px solid;
+  border-bottom-width:0px;
+  padding:8px;
+  padding-left:45px;
+  list-style: none;
+  position:relative;
+ left:-50px;
+  width:100%;
+}
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+  #navbar ul{
+  border:1px solid;
+    height:207px;
+  }
+    #navbar{
+      background-color:white;
+      position:absolute;
+      top:0;
+      padding:0;
+      margin: 0;
+      width:100%;
+      max-height:275px;
+      border:none;
+      z-index:1;
+      border-bottom:2px}}
