@@ -10,9 +10,6 @@ body {
   background-attachment: fixed;
   font-weight: heavy;
   background-color:rgba(255,0,0,0.5);
-}
-#almost-whole-body {
-  opacity: 1;
   font-weight: bold;text-shadow: 0.5px 0.5px 0px #000;
 }
   
